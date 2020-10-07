@@ -1,0 +1,58 @@
+.login-part {
+    background-color: lightblue;
+    height: 100vh;
+}
+
+.logo {
+    height: 80px;
+    margin-left: 38%;
+    margin-top: 80px;
+}
+
+.login-area {
+    height: 350px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.login-area h3 {
+    margin-top: 65px;
+}
+
+.login-area p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.createAccount {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.fireAuth {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #000;
+    border-radius: 35px;
+    width: 350px;
+    margin: 10px auto;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    margin-top: 45px;
+}
+
+.fireAuth .authTitle h5 {
+    margin-left: 15px;
+}
+
+.createAccount {
+    cursor: pointer;
+}

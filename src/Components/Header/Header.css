@@ -1,0 +1,17 @@
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000 !important;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item button {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}

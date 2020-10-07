@@ -1,0 +1,28 @@
+.bg-banner {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)), url(../../Image/Banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+}
+
+.bg-content {
+    margin-top: 50px;
+}
+
+.bg-content form {
+    margin-left: 380px;
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+
+.bg-content form input {
+    border-radius: 15px;
+}
+
+.bg-content form button {
+    left: 290px;
+    position: absolute;
+    border-radius: 15px;
+}
