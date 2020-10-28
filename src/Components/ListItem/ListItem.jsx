@@ -10,13 +10,14 @@ const ListItem = () => {
     const [deleteList, setDeleteList] = useState(false);
 
     useEffect(() =>{
-        fetch('https://polar-citadel-33954.herokuapp.com/listItem')
+        fetch('https://polar-citadel-33954.herokuapp.com/listItem?email=' + loggedInUser.email)
         .then(res => res.json())
         .then(data => setListItem(data))
     }, [deleteList])
     const handleDelete = () => {
         setDeleteList(!deleteList)
     }
+
     return (
         <div className="volunteerList">
             <div className="container">
